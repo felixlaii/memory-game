@@ -20,6 +20,9 @@ export default function Cards() {
         { id: 8, img: '/src/assets/images/nodejs.jpeg', stat: ""},
         { id: 8, img: '/src/assets/images/nodejs.jpeg', stat: ""}
     ].sort(() => Math.random() - 0.5))
+
+    const [prev, setPrev] = useState(-1)
+    
   return (
     <div>Cards</div>
   )

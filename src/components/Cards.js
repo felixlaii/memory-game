@@ -29,6 +29,16 @@ export default function Cards() {
             items[prev].stat = "correct"
             setItems([...items])
             setPrev(-1)
+        }else{
+            items[current].stat = "wrong"
+            items[prev].stat = "wrong"
+            setItems([...items])
+            setTimeout(() => {
+                items[current].stat = ""
+                items[prev].stat = ""
+                setItems([...items])
+                setPrev(-1)
+            }, 1000)
         }
     }
   return (

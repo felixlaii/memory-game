@@ -22,7 +22,15 @@ export default function Cards() {
     ].sort(() => Math.random() - 0.5))
 
     const [prev, setPrev] = useState(-1)
-    
+
+    function check(current){
+        if(items[current].id == items[prev].id){
+            items[current].stat = "correct"
+            items[prev].stat = "correct"
+            setItems([...items])
+            setPrev(-1)
+        }
+    }
   return (
     <div>Cards</div>
   )

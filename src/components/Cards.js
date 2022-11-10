@@ -52,6 +52,8 @@ export default function Cards() {
         }
     }
   return (
-    <div>Cards</div>
+    <div className="container">
+        
+    </div>
   )
 }

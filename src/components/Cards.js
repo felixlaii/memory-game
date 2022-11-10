@@ -7,18 +7,18 @@ export default function Cards() {
         { id: 1, img: '/img/html.png', stat: ""},
         { id: 2, img: '/img/css.png', stat: ""},
         { id: 2, img: '/img/css.png', stat: ""},
-        { id: 3, img: '/img/javascript.png', stat: ""},
-        { id: 3, img: '/img/javascript.png', stat: ""},
-        { id: 4, img: '/img/sass.png', stat: ""},
-        { id: 4, img: '/img/sass.png', stat: ""},
+        { id: 3, img: '/img/js.png', stat: ""},
+        { id: 3, img: '/img/js.png', stat: ""},
+        { id: 4, img: '/img/scss.png', stat: ""},
+        { id: 4, img: '/img/scss.png', stat: ""},
         { id: 5, img: '/img/react.png', stat: ""},
         { id: 5, img: '/img/react.png', stat: ""},
-        { id: 6, img: '/img/responsive.jpeg', stat: ""},
-        { id: 6, img: '/img/responsive.jpeg', stat: ""},
-        { id: 7, img: '/img/rest-api.webp', stat: ""},
-        { id: 7, img: '/img/rest-api.webp', stat: ""},
-        { id: 8, img: '/img/nodejs.jpeg', stat: ""},
-        { id: 8, img: '/img/nodejs.jpeg', stat: ""}
+        { id: 6, img: '/img/vue.png', stat: ""},
+        { id: 6, img: '/img/vue.png', stat: ""},
+        { id: 7, img: '/img/angular.png', stat: ""},
+        { id: 7, img: '/img/angular.png', stat: ""},
+        { id: 8, img: '/img/nodejs.png', stat: ""},
+        { id: 8, img: '/img/nodejs.png', stat: ""}
     ].sort(() => Math.random() - 0.5))
 
     const [prev, setPrev] = useState(-1)

@@ -19,7 +19,7 @@ export default function Cards() {
         { id: 7, img: '/src/assets/images/rest-api.webp', stat: ""},
         { id: 8, img: '/src/assets/images/nodejs.jpeg', stat: ""},
         { id: 8, img: '/src/assets/images/nodejs.jpeg', stat: ""}
-    ])
+    ].sort(() => Math.random() - 0.5))
   return (
     <div>Cards</div>
   )
